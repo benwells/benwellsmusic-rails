@@ -1,0 +1,23 @@
+%nav.navbar.navbar-custom.navbar-fixed-top{role: "navigation"}
+  .container
+    .navbar-header.page-scroll
+      %button.navbar-toggle{"data-target" => ".navbar-main-collapse", "data-toggle" => "collapse", type: "button"}
+        %i.fa.fa-bars
+      /
+        <a class="navbar-brand" href="#page-top">
+        <i class="fa fa-play-circle"></i>  <span class="light">BW</span> Music
+        </a>
+    / Collect the nav links, forms, and other content for toggling
+    .collapse.navbar-collapse.navbar-right.navbar-main-collapse
+      %ul.nav.navbar-nav
+        / Hidden li included to remove active class from about link when scrolled up past about section
+        %li.hidden
+          %a{href: "#page-top"}
+        %li.page-scroll
+          %a{href: "#about"} Listen
+        %li.page-scroll
+          %a{href: "#download"} See
+        %li.page-scroll
+          %a{href: "#contact"} Book
+    / /.navbar-collapse
+  / /.container

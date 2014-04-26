@@ -5,6 +5,7 @@ gem 'haml-rails'
 gem 'twitter-bootstrap-rails-cdn'
 
 group :development do
+  gem 'guard'
   gem 'guard-livereload', require: false
 end
 
