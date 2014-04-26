@@ -127,7 +127,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/assets/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -238,15 +238,15 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+  padding-top: 30px;
 }
 
-.download-section {
+.see-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+/*    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background-color: gray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -261,10 +261,10 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 30px;
     }
 
-    .download-section {
+    .see-section {
         padding: 100px 0;
     }
 
