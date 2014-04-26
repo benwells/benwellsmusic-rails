@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 gem 'haml-rails'
 gem 'twitter-bootstrap-rails-cdn'
 
+group :development do
+  gem 'guard-livereload', require: false
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
