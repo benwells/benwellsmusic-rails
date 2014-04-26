@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Added Gems
-gem 'haml'
+gem 'haml-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
