@@ -5,3 +5,27 @@
 #listen {
   padding-top:75px;
 }
+
+#giglist li {
+  color:black;
+  padding:0px;
+/*  padding-right:10px;*/
+  background:transparent;
+
+}
+#giglist {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#giglist .date {
+  color:white;
+  background:black;
+  height:100%;
+  width:40%;
+  padding:9px;
+}
+
+#giglist .title {
+  background-color: #fff;
+  width:60%;
+  padding:9px;
+}

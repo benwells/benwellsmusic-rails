@@ -1,0 +1,47 @@
+%section#gigs.container.content-section.text-center
+  .row
+    .col-lg-10.col-lg-offset-1
+      %h2 Gigs & News
+      .col-lg-6
+        %h5 Gigs
+        -# %ul#giglist.list-group
+        -#   %li.list-group-item.clearfix
+        -#     %span.date.pull-left  4.12.14
+        -#     %span.title.pull-right Private Event
+        -#   %li.list-group-item.clearfix
+        -#     %span.date.pull-left  4.12.14
+        -#     %span.title.pull-right Private Event
+        -#   %li.list-group-item.clearfix
+        -#     %span.date.pull-left  4.12.14
+        -#     %span.title.pull-right Private Event
+        -#   %li.list-group-item.clearfix
+        -#     %span.date.pull-left  4.12.14
+        -#     %span.title.pull-right Private Event
+        #accordion.panel-group
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title.clearfix
+                %span.date.pull-left
+                  4.14.14
+                %span.title
+                  %a{"data-parent" => "#accordion", "data-toggle" => "collapse", href: "#collapseOne"}
+                    High Cotton
+            #collapseOne.panel-collapse.collapse
+              .panel-body{style: 'color:black;text-align:left;'}
+                with the Frank Duvall Trio
+                %br
+                %br
+                6:00pm - 10:00pm
+
+                %br
+                %br
+                123 Market St.
+                Charleston, SC 29401
+      .col-lg-6
+        %h5 News
+        %ul
+          %li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          %li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          %li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          %li Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          %li Lorem ipsum dolor sit amet, consectetur adipisicing elit.

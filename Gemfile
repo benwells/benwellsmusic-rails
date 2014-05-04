@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Added Gems
 gem 'haml-rails'
 gem 'twitter-bootstrap-rails-cdn'
+gem 'google_calendar'
 
 group :development do
   gem 'guard'
